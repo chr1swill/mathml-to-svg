@@ -36,7 +36,7 @@ const cleanMathML = (mathML) => {
 		mathML[i] = mathMLString.substring(
 			startOfClosingTagIdx + 1,
 			endOfOpeningTagIdx - 1,
-		) + "\n";
+		);
 	}
 	return mathML;
 };
